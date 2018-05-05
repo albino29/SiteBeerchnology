@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Beerchnology</title>
+<!-- PARA MOBILE -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- // PARA MOBILE -->
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- JS -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- // JS GOOGLE API -->
+<link href='//fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+<!-- ROLAGEM SUAVE  -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- //ROLAGEM SUAVE -->
+
+</head>
+<body>
+<!-- BANNER -->
+	<div class="banner">
+		<div class="container">
+			<nav class="navbar navbar-padrao">
+				<!--"brand" e "toggle" agrupados para uma melhor navegação-->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-exemplo-navbar-collapse-1">
+					<span class="sr-only">Menu navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+					<div class="logo">
+						<h1><a class="navbar-brand" href="index.html">Beerchnology</></a></h1>
+					</div>
+				</div>
+				<div class="collapse navbar-collapse nav-wil" id="bs-exemplo-navbar-collapse-1">
+					<nav class="link-effect-2" id="link-effect-2"> 
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index.html"><span data-hover="Home">Home</span></a></li>
+							<li><a href="#about" class="scroll"><span data-hover="Sobre">Sobre</span></a></li>
+							<li><a href="#gallery" class="scroll"><span data-hover="Galeria">Episódios</span></a></li>
+							<li><a href="#mail" class="scroll"><span data-hover="Contato">Contato</span></a></li>
+						</ul>
+					</nav>
+				</div>
+				<!-- /.navbar-collapse -->
+			</nav>
+			<div class="banner-info">
+				<h2>Descubra o que acontece quando duas filosofas tech recebem pessoas legais para tomar uma cerveja</h2>
+				<p><h3></h3></p>
+				<div class="more">
+					<a href="#" class="hvr-shutter-in-vertical" data-toggle="modal" data-target="#myModal">Chama eu!<span class="glyphicon glyphicon-arrow-right"></span></a>
+				</div>
+				<!--modal-video-->
+				<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4>Bora tomar uma e conversar sobre tech??</h4>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+							</div>
+							<section>
+								<div class="modal-body">
+										<p>Envie um email para <b>beerchnology@gmail.com</b></p>
+								</div> 
+							</section>
+						</div>
+					</div>
+				</div>
+				<div class="social_icons">
+					<ul>
+						<li><a href="#" class="icon icon-cube facebook"></a></li>
+						<li><a href="#" class="icon icon-cube rss"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- //BANNER -->
+
+<!-- SOBRE -->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="about-grids">
+				<div class="col-md-5 w3_about_grid_left">
+					<h3>Temos uma<span>missão</span><i>para você</i></h3>
+				</div>
+				<div class="col-md-7 about_grid_right_w3agile">
+					<p>Cansadas dos Happy Hours chatos, com todo tipo de embuste comumente encontrados no ambiente de quem trabalha com tecnologia e meritocracia</p><span>
+					<h3>Criamos o nosso!!!</h3></span><span><p>E paara provar que estamos abertas ao dialogo, a todo tipo de diversidade intelectual (etilica não, tem que tomar cerveja) e porque não: a pluralidade geografica...nosso encontro é um Podcast Remoto, com drinks!</span></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="about-bottom">
+		<div class="container">
+			<div class="about-grids-bottom">
+				<div class="col-md-6 about-grids-bottom-left">
+				</div>
+				<div class="col-md-6 agileinfo_about_grids_bottom_right">
+					<img src="images/high-tech-185146.jpg" alt=" " class="img-responsive" /> 
+					<div class="agileinfo_about_grids_bottom_right-pos">
+						<h3>Sobre nós</h3>
+					<p><span>Aqui o dialogo é universal e queremos falar, ouvir e compartilhar cervejas com mulheres, homens, comunidade glbt e pessoas de todas as raças a não enxergarem barreiras de cor e gênero no seu potencial, no amor pela cevada e também pela tecnologia. Vem com a gente!</span></p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- // SOBRE -->
+
+<!-- GALERIA -->
+	<div class="gallery" id="gallery">
+		<div class="container">
+			<h3>Episódios</h3>
+			<p class="aut">Siga e acompanhe o Beerchnology</p>
+			<div class="gallery_grid">
+				<div class="col-md-4 gallery_grid">
+					<div class="view second-effect">
+						<a class="zb" rel=" " href="images/6.jpg" title="Code Abroad">
+							<img src="images/beer-1.jpg" alt="" class="img-responsive" />
+							<div class="mask">
+								<p>#01 Os Embustes</p>
+							</div>
+						</a>	
+					</div>	
+				</div>
+				<div class="col-md-4 gallery_grid">
+					<div class="view second-effect">
+						<a class="zb" rel=" " href="images/7.jpg" title="Code Abroad">
+							<img src="images/code-1839406.jpg" alt="" class="img-responsive" />
+							<div class="mask">
+								<p>#02 O pior HH de todos os tempos</p>
+							</div>
+						</a>	
+					</div>	
+				</div>
+				<div class="col-md-4 gallery_grid">
+					<div class="view second-effect">
+						<a class="zb" rel=" " href="images/8.jpg" title="Code Abroad">
+							<img src="images/mike-1737614.jpg" alt="" class="img-responsive" />
+							<div class="mask">
+								<p>#03 As minas do trabalho</p>
+							</div>
+						</a>	
+					</div>	
+				</div>
+				<div class="col-md-4 gallery_grid">
+					<div class="view second-effect">
+						<a class="zb" rel=" " href="images/009.jpg" title="Code Abroad">
+							<img src="images/podcasts-2633018.jpg" alt="" class="img-responsive" />
+							<div class="mask">
+								<p>#04 Porque contratar mais minas</p>
+							</div>
+						</a>	
+					</div>	
+				</div>
+				<div class="col-md-4 gallery_grid">
+					<div class="view second-effect">
+						<a class="zb" rel=" " href="images/10.jpg" title="Code Abroad">
+							<img src="images/beer-2.jpg" alt="" class="img-responsive" />
+							<div class="mask">
+								<p>#05 Feminismo é legal (mas pode ser mais)</p>
+							</div>
+						</a>	
+					</div>	
+				</div>
+				<div class="col-md-4 gallery_grid">
+					<div class="view second-effect">
+						<a class="zb" rel=" " href="images/12.jpg" title="Code Abroad">
+							<img src="images/microphone-2469293.jpg" alt="" class="img-responsive" />
+							<div class="mask">
+								<p>#06 Eles pedem para ver meu código</p>
+							</div>
+						</a>	
+					</div>	
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+				<script type="text/javascript" src="js/jquery.zbox.min.js"></script>
+				<script type="text/javascript">
+				  jQuery(document).ready(function(){
+					jQuery(".zb").zbox( { margin:40 } );
+				  });
+				</script>
+		</div>
+	</div>
+<!-- //GALERIA -->
+
+<!-- GALERIA-VIDEO
+	<div class="gallery-video">
+		<div class="container">
+			<h3>Explore.Descubra.Seja um agente da mudança!</h3>
+			<p>  </p>
+			<h4> aperte o play</h4>
+			<a class="play-icon popup-with-zoom-anim" href="#small-dialog">
+				<span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+			</a>
+		</div>	
+		<div class="clearfix"> </div>		
+	</div>
+//GALERIA-VIDEO  -->
+
+<!-- FOOTER -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-grids">
+				<div class="col-md-3 footer-grid">
+					<h3>Sobre</h3>
+					<p><b>Bruh:</b> Dev, curiosa, eclética que não curte sertanejo universitário e gosta de Corona.</p>
+					<p></p>
+					<p><b>Naujosks:</b> Cientista de dados, pagodeira e amante de Guinness (não necessariamente nesta ordem).</p>
+				</div>
+				<div class="col-md-4 footer-grid">
+					<h3>Bora?!</h3>
+					<p>A gente quer te escutar! Compartilhe suas idéias conosco ou inscreva-se para atualizações.</p>
+					<form action="#" method="post">
+						<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+						<input type="submit" value="Enviar">
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="copy-right">
+		<div class="container">
+			<p>2018 Naujosks // All rights reserved</p>
+			<div class="social_icons">
+				<ul>
+					<li><a href="#" class="icon icon-cube facebook"></a></li>
+					<li><a href="#" class="icon icon-cube rss"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<!-- //FOOTER -->
+
+<!-- para o Bootstrap funcionar -->
+	<script src="js/bootstrap.js"></script>
+<!-- // para o Bootstrap funcionar -->
+
+<!-- scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var padrão = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //scrolling icon -->
+</body>
+</html>
