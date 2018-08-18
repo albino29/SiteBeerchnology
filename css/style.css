@@ -71,6 +71,8 @@ body a:hover{
 }
 .banner{
 	background:url(../images/beer-2453463.jpg) no-repeat 0px 0px;
+  max-width:100%;
+  height:auto;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
