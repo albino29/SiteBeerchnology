@@ -32,7 +32,7 @@ body a:hover{
     padding: 18px 0 0;
 }
 .navbar-padrao .navbar-brand {
-    color:#fff;
+    color:#212121;
     font-size:1.5em;
 }
 .navbar-padrao .navbar-brand:hover, .navbar-padrao .navbar-brand:focus {
@@ -69,7 +69,7 @@ body a:hover{
 	outline:none;
 }
 .banner{
-	background:url(../images/beer-2453463.jpg) no-repeat 0px 0px;
+	background:url(../images/womanonbeerbarrelsin1933.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -87,7 +87,7 @@ body a:hover{
 }
 .banner-info h2{
 	font-size: 2.5em;
-    color: #fff;
+    color: #FFBF00;
     line-height: 1.5em;
     text-transform: uppercase;
     font-weight: 700;
